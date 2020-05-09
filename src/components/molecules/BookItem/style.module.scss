@@ -1,0 +1,16 @@
+.bookItem {
+  margin: 20px 0 0 0;
+  width: 350px;
+  height: 216px;
+  border: 1px solid #1A535C;
+  border-radius: 4px;
+  background-color: #1A535C;
+  overflow: hidden;
+  &Link {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+}
